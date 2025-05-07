@@ -97,12 +97,13 @@ h2 {
     background: var(--light-gray);
 }
 
+
 .services-grid {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 1.5rem;
     padding: 1rem;
 }
@@ -283,9 +284,12 @@ h2 {
     .value-card {
         padding: 1.25rem;
     }
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
 
     .stats-grid {
-        gap: 1.5rem;
+        gap: 1rem;
     }
     .btn {
         padding: 0.75rem 1.5rem;
